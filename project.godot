@@ -8,6 +8,34 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Area2D",
+"class": "Enemy",
+"language": "GDScript",
+"path": "res://scripts/Enemy.gd"
+}, {
+"base": "Area2D",
+"class": "EnemyBullet",
+"language": "GDScript",
+"path": "res://scripts/EnemyBullet.gd"
+}, {
+"base": "CanvasLayer",
+"class": "HUD",
+"language": "GDScript",
+"path": "res://scripts/HUD.gd"
+}, {
+"base": "Area2D",
+"class": "Player",
+"language": "GDScript",
+"path": "res://scripts/Player.gd"
+} ]
+_global_script_class_icons={
+"Enemy": "",
+"EnemyBullet": "",
+"HUD": "",
+"Player": ""
+}
+
 [application]
 
 config/name="Space Invaders"
